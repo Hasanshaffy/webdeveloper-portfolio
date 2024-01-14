@@ -156,4 +156,46 @@ main {
 /* resume-summary sectio */
 .resume-summary {
   display: flex;
+  gap: 50px;
+}
+.my-education,
+.my-experience {
+  color: #474747;
+
+  font-size: 30px;
+
+  font-weight: 700;
+}
+.education-title,
+.experience-title {
+  color: #474747;
+
+  font-size: 25px;
+
+  font-weight: 700;
+  padding-top: 30px;
+}
+.education-institute,
+.experience-institute {
+  color: #757575;
+
+  font-size: 20px;
+
+  font-weight: 600;
+  padding-top: 10px;
+}
+.education-description,
+.experience-description {
+  width: 550px;
+  color: #757575;
+
+  font-size: 20px;
+
+  font-weight: 600;
+  padding-top: 20px;
+}
+.download-cv {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
 }
